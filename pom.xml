@@ -12,6 +12,7 @@
         <module>infrastructure</module>
         <module>domain-zwz</module>
         <module>domain-jjf</module>
+        <module>domain-hkj</module>
     </modules>
 
     <properties>
