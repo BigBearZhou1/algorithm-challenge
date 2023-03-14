@@ -2,12 +2,14 @@ package leetcode.offer.run;
 
 import leetcode.offer.day1.CQueue;
 import leetcode.offer.day2.MinStack;
+import leetcode.offer.day3.ReversePrintListNode;
 
 public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
 //        solution.runDay01();
-        solution.runDay02();
+//        solution.runDay02();
+        solution.runDay03();
     }
 
     private void runDay01(){
@@ -30,6 +32,11 @@ public class Solution {
         minStack.min();
         System.out.println(minStack.min());
 
+    }
+
+    private void runDay03(){
+        ReversePrintListNode printListNode = new ReversePrintListNode();
+        printListNode.run();
     }
 
 }
