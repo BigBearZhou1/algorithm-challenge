@@ -3,13 +3,15 @@ package leetcode.offer.run;
 import leetcode.offer.day1.CQueue;
 import leetcode.offer.day2.MinStack;
 import leetcode.offer.day3.ReversePrintListNode;
+import leetcode.offer.day4.ListReverse;
 
 public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
 //        solution.runDay01();
 //        solution.runDay02();
-        solution.runDay03();
+//        solution.runDay03();
+        solution.runDay04();
     }
 
     private void runDay01(){
@@ -39,4 +41,8 @@ public class Solution {
         printListNode.run();
     }
 
+    private void runDay04(){
+        ListReverse reverse = new ListReverse();
+        reverse.run();
+    }
 }
