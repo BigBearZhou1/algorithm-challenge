@@ -4,6 +4,7 @@ import leetcode.offer.day1.CQueue;
 import leetcode.offer.day2.MinStack;
 import leetcode.offer.day3.ReversePrintListNode;
 import leetcode.offer.day4.ListReverse;
+import leetcode.offer.day6.StringWithoutSpace;
 
 public class Solution {
     public static void main(String[] args) {
@@ -11,7 +12,8 @@ public class Solution {
 //        solution.runDay01();
 //        solution.runDay02();
 //        solution.runDay03();
-        solution.runDay04();
+//        solution.runDay04();
+        solution.runDay06();
     }
 
     private void runDay01(){
@@ -44,5 +46,10 @@ public class Solution {
     private void runDay04(){
         ListReverse reverse = new ListReverse();
         reverse.run();
+    }
+
+    private void runDay06(){
+        String s = new StringWithoutSpace().replaceSpace("We are happy.");
+        System.out.println(s);
     }
 }
