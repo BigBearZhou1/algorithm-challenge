@@ -1,4 +1,4 @@
-package leetcode.offer.day6;
+package leetcode.offer.week2.day1;
 
 public class StringWithoutSpace {
 

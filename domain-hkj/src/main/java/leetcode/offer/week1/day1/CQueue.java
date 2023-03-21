@@ -1,4 +1,4 @@
-package leetcode.offer.day1;
+package leetcode.offer.week1.day1;
 
 import java.util.Stack;
 

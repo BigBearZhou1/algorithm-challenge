@@ -1,4 +1,4 @@
-package leetcode.offer.day4;
+package leetcode.offer.week1.day4;
 
 import java.util.Arrays;
 
