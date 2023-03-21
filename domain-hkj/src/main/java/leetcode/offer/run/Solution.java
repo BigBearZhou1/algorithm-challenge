@@ -1,10 +1,11 @@
 package leetcode.offer.run;
 
-import leetcode.offer.day1.CQueue;
-import leetcode.offer.day2.MinStack;
-import leetcode.offer.day3.ReversePrintListNode;
-import leetcode.offer.day4.ListReverse;
-import leetcode.offer.day6.StringWithoutSpace;
+import leetcode.offer.week1.day1.CQueue;
+import leetcode.offer.week1.day2.MinStack;
+import leetcode.offer.week1.day3.ReversePrintListNode;
+import leetcode.offer.week1.day4.ListReverse;
+import leetcode.offer.week2.day1.StringWithoutSpace;
+import leetcode.offer.week2.day2.StringReverse;
 
 public class Solution {
     public static void main(String[] args) {
@@ -13,7 +14,8 @@ public class Solution {
 //        solution.runDay02();
 //        solution.runDay03();
 //        solution.runDay04();
-        solution.runDay06();
+//        solution.runDay06();
+        solution.runDay07();
     }
 
     private void runDay01(){
@@ -51,5 +53,11 @@ public class Solution {
     private void runDay06(){
         String s = new StringWithoutSpace().replaceSpace("We are happy.");
         System.out.println(s);
+    }
+    private void runDay07(){
+        String s = new StringReverse().reverseLeftWords("abcdefg", 2);
+        String s2 = new StringReverse().reverseLeftWords("lrloseumgh", 6);
+        System.out.println(s);
+        System.out.println(s2);
     }
 }

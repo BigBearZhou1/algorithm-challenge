@@ -1,4 +1,4 @@
-package leetcode.offer.day5;
+package leetcode.offer.week1.day5;
 
 
 import java.util.HashMap;
