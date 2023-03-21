@@ -5,6 +5,7 @@ import leetcode.offer.week1.day2.MinStack;
 import leetcode.offer.week1.day3.ReversePrintListNode;
 import leetcode.offer.week1.day4.ListReverse;
 import leetcode.offer.week2.day1.StringWithoutSpace;
+import leetcode.offer.week2.day2.RepeatNumberSearcher;
 import leetcode.offer.week2.day2.StringReverse;
 
 public class Solution {
@@ -59,5 +60,9 @@ public class Solution {
         String s2 = new StringReverse().reverseLeftWords("lrloseumgh", 6);
         System.out.println(s);
         System.out.println(s2);
+        int number = new RepeatNumberSearcher().findRepeatNumber(new int[]{2, 3, 1, 0, 2, 5, 3});
+        int number1 = new RepeatNumberSearcher().findRepeatNumberInhanced(new int[]{2, 3, 1, 0, 2, 5, 3});
+        System.out.println(number);
+        System.out.println(number1);
     }
 }
