@@ -8,6 +8,7 @@ import leetcode.offer.week2.day1.StringWithoutSpace;
 import leetcode.offer.week2.day2.RepeatNumberSearcher;
 import leetcode.offer.week2.day2.Searcher;
 import leetcode.offer.week2.day2.StringReverse;
+import leetcode.offer.week2.day3.MissingNumber;
 
 public class Solution {
     public static void main(String[] args) {
@@ -17,7 +18,8 @@ public class Solution {
 //        solution.runDay03();
 //        solution.runDay04();
 //        solution.runDay06();
-        solution.runDay07();
+//        solution.runDay07();
+        solution.runDay08();
     }
 
     private void runDay01() {
@@ -71,5 +73,11 @@ public class Solution {
         int times1 = new Searcher().search(new int[]{0,1, 2, 2, 2, 3, 3, 3, 4}, 3);
         System.out.println(times);
         System.out.println(times1);
+    }
+
+
+    private void runDay08(){
+        int i = new MissingNumber().missingNumber(new int[]{0});
+        System.out.println(i);
     }
 }
