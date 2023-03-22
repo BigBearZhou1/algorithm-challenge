@@ -6,6 +6,7 @@ import leetcode.offer.week1.day3.ReversePrintListNode;
 import leetcode.offer.week1.day4.ListReverse;
 import leetcode.offer.week2.day1.StringWithoutSpace;
 import leetcode.offer.week2.day2.RepeatNumberSearcher;
+import leetcode.offer.week2.day2.Searcher;
 import leetcode.offer.week2.day2.StringReverse;
 
 public class Solution {
@@ -19,7 +20,7 @@ public class Solution {
         solution.runDay07();
     }
 
-    private void runDay01(){
+    private void runDay01() {
         CQueue queue = new CQueue();
         queue.appendTail(1);
         queue.appendTail(2);
@@ -28,7 +29,7 @@ public class Solution {
         System.out.println(queue.deleteHead());
     }
 
-    private void runDay02(){
+    private void runDay02() {
         MinStack minStack = new MinStack();
         minStack.push(-2);
         minStack.push(0);
@@ -41,21 +42,22 @@ public class Solution {
 
     }
 
-    private void runDay03(){
+    private void runDay03() {
         ReversePrintListNode printListNode = new ReversePrintListNode();
         printListNode.run();
     }
 
-    private void runDay04(){
+    private void runDay04() {
         ListReverse reverse = new ListReverse();
         reverse.run();
     }
 
-    private void runDay06(){
+    private void runDay06() {
         String s = new StringWithoutSpace().replaceSpace("We are happy.");
         System.out.println(s);
     }
-    private void runDay07(){
+
+    private void runDay07() {
         String s = new StringReverse().reverseLeftWords("abcdefg", 2);
         String s2 = new StringReverse().reverseLeftWords("lrloseumgh", 6);
         System.out.println(s);
@@ -64,5 +66,10 @@ public class Solution {
         int number1 = new RepeatNumberSearcher().findRepeatNumberInhanced(new int[]{2, 3, 1, 0, 2, 5, 3});
         System.out.println(number);
         System.out.println(number1);
+
+        int times = new Searcher().search(new int[]{5, 7, 7, 8, 8, 10}, 8);
+        int times1 = new Searcher().search(new int[]{0,1, 2, 2, 2, 3, 3, 3, 4}, 3);
+        System.out.println(times);
+        System.out.println(times1);
     }
 }

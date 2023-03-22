@@ -1,6 +1,5 @@
 package leetcode.offer.week2.day2;
 
-import java.util.HashMap;
 import java.util.HashSet;
 
 public class RepeatNumberSearcher {
