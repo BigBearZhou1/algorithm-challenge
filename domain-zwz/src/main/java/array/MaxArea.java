@@ -1,5 +1,9 @@
 package array;
 
+/**
+ * 双指针
+ * 从最外面向里面移动，数值小的那一边向里面移动
+ */
 public class MaxArea {
     public int maxArea(int[] height) {
         int l = 0, r = height.length - 1, max = 0;
