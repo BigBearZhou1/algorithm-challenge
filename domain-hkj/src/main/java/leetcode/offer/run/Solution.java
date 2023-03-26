@@ -8,6 +8,8 @@ import leetcode.offer.week2.day1.StringWithoutSpace;
 import leetcode.offer.week2.day2.RepeatNumberSearcher;
 import leetcode.offer.week2.day2.Searcher;
 import leetcode.offer.week2.day2.StringReverse;
+import leetcode.offer.week2.day3.MissingNumber;
+import leetcode.offer.week3.day01.NumberSearcher;
 
 public class Solution {
     public static void main(String[] args) {
@@ -17,7 +19,9 @@ public class Solution {
 //        solution.runDay03();
 //        solution.runDay04();
 //        solution.runDay06();
-        solution.runDay07();
+//        solution.runDay07();
+//        solution.runDay08();
+        solution.runDay09();
     }
 
     private void runDay01() {
@@ -68,8 +72,26 @@ public class Solution {
         System.out.println(number1);
 
         int times = new Searcher().search(new int[]{5, 7, 7, 8, 8, 10}, 8);
-        int times1 = new Searcher().search(new int[]{0,1, 2, 2, 2, 3, 3, 3, 4}, 3);
+        int times1 = new Searcher().search(new int[]{0, 1, 2, 2, 2, 3, 3, 3, 4}, 3);
         System.out.println(times);
         System.out.println(times1);
+    }
+
+
+    private void runDay08() {
+        int i = new MissingNumber().missingNumber(new int[]{0});
+        System.out.println(i);
+    }
+
+    private void runDay09() {
+        int[][] a = {
+                {1, 4, 7, 11, 15},
+                {2, 5, 8, 12, 19},
+                {3, 6, 9, 16, 22},
+                {10, 13, 14, 17, 24},
+                {18, 21, 23, 26, 30}
+        };
+        boolean find = new NumberSearcher().findNumberIn2DArray(a, 5);
+        System.out.println(find);
     }
 }
