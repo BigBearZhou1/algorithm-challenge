@@ -31,7 +31,7 @@ public class TreeNodePrint {
 
     public int[] levelOrder(TreeNode root) {
         if (root == null) return null;
-        ArrayDeque<TreeNode> nodes = new ArrayDeque<TreeNode>();
+        ArrayDeque<TreeNode> nodes = new ArrayDeque<>();
         nodes.add(root);
         ArrayList<Integer> temp = new ArrayList<>();
         while (!nodes.isEmpty()) {
