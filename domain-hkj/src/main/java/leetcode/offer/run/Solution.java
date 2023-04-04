@@ -1,15 +1,15 @@
 package leetcode.offer.run;
 
-import leetcode.offer.week1.day1.CQueue;
-import leetcode.offer.week1.day2.MinStack;
-import leetcode.offer.week1.day3.ReversePrintListNode;
-import leetcode.offer.week1.day4.ListReverse;
-import leetcode.offer.week2.day1.StringWithoutSpace;
-import leetcode.offer.week2.day2.RepeatNumberSearcher;
-import leetcode.offer.week2.day2.Searcher;
-import leetcode.offer.week2.day2.StringReverse;
-import leetcode.offer.week2.day3.MissingNumber;
-import leetcode.offer.week3.day01.NumberSearcher;
+import leetcode.offer.week01.day1.CQueue;
+import leetcode.offer.week01.day2.MinStack;
+import leetcode.offer.week01.day3.ReversePrintListNode;
+import leetcode.offer.week01.day4.ListReverse;
+import leetcode.offer.week02.day1.StringWithoutSpace;
+import leetcode.offer.week02.day2.RepeatNumberSearcher;
+import leetcode.offer.week02.day2.Searcher;
+import leetcode.offer.week02.day2.StringReverse;
+import leetcode.offer.week02.day3.MissingNumber;
+import leetcode.offer.week03.day01.NumberSearcher;
 
 public class Solution {
     public static void main(String[] args) {
